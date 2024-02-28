@@ -28,7 +28,6 @@
   padding: 20px;
   border: 1px solid #888;
   width: 80%; /* Could be more or less, depending on screen size */
-  
 }
 
 /* The Close Button */
@@ -47,16 +46,24 @@
 }
 
 
-.left-side {
-    width: 45%;}
-
-.right-side {
-    width: 45%;}
-
- 
 
 #monmark {
-  width: 50%;
+  width: 100%;
   height: auto;
 }
     
+
+.row {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 10px;
+}
+
+#modContainer{
+		margin: auto;
+		max-width: 100%;
+}

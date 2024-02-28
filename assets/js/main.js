@@ -47,9 +47,10 @@ btn1.onclick = function () {
 
 btn2.onclick = function () {
   modal.style.display = "block";
-  document.getElementById("mod_title").innerHTML = "MonMarket Webstie";
+  document.getElementById("mod_title").innerHTML = "MonMarket Website";
   document.getElementById("mod_desc").innerHTML =
-    "This website was designed with a focus on catering to students residing on campus, providing them with a platform to buy and sell items among themselves. This service proves particularly valuable for students transitioning in and out of MRS"
+    "This website was designed with a focus on catering to students residing on campus, providing them with a platform to buy and sell items among themselves. This service proves particularly valuable for students transitioning in and out of MRS."
+    + " For this project I used python and flask. I learned how to use routes, blueprints and had the website sucessfuly running online"
 	;
 };
 
