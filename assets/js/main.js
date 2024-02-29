@@ -40,25 +40,27 @@ var span = document.getElementsByClassName("close")[0];
 // When the user clicks on the button, open the modal
 btn1.onclick = function () {
   modal.style.display = "block";
-  document.getElementById("mod_title").innerHTML = "1008 PROJECT";
+  document.getElementById("mod_title").innerHTML = "";
   document.getElementById("mod_desc").innerHTML =
-    "this is the test input FOR 1";
+    "";
 };
 
 btn2.onclick = function () {
   modal.style.display = "block";
   document.getElementById("mod_title").innerHTML = "MonMarket Website";
   document.getElementById("mod_desc").innerHTML =
-    "This website was designed with a focus on catering to students residing on campus, providing them with a platform to buy and sell items among themselves. This service proves particularly valuable for students transitioning in and out of MRS."
-    + " For this project I used python and flask. I learned how to use routes, blueprints and had the website sucessfuly running online"
+    "This website was designed with a focus on catering to students residing on campus, providing them with a platform to buy and sell items amongst themselves. This service proves particularly valuable for new and retiring residents of MRS."
+    + "<br> For this project I used python and flask. I learned how to use routes, blueprints and had the website sucessfuly running online."+
+    "<br> Still a work in progress."
 	;
+  document.getElementById("mod_img").innerHTML = '<img src="images/monmarket.jpg" id="monmark">'
 };
 
 btn3.onclick = function () {
   modal.style.display = "block";
   document.getElementById("mod_title").innerHTML = "1008 PROJECT";
   document.getElementById("mod_desc").innerHTML =
-    "this is the test input for 3";
+    "During the summer I decided to practice basics of pytorch. ";
 };
 
 // When the user clicks on <span> (x), close the modal
