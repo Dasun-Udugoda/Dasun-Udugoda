@@ -40,9 +40,10 @@ var span = document.getElementsByClassName("close")[0];
 // When the user clicks on the button, open the modal
 btn1.onclick = function () {
   modal.style.display = "block";
-  document.getElementById("mod_title").innerHTML = "";
+  document.getElementById("mod_title").innerHTML = "2024 Hackathon: Spotto!";
   document.getElementById("mod_desc").innerHTML =
-    "";
+    "This is an IOS only application which was built through Apple’s Swift programming language using their XCode IDE. Used public CSV files to access all the suburbs in Australia. We worked collaboratively using GitHub, which allowed for concurrent work on the project.";
+  document.getElementById("mod_img").innerHTML = '<img src="images/spotto.png" id="spotto">'
 };
 
 btn2.onclick = function () {
@@ -60,8 +61,9 @@ btn3.onclick = function () {
   modal.style.display = "block";
   document.getElementById("mod_title").innerHTML = "1008 PROJECT";
   document.getElementById("mod_desc").innerHTML =
-    "During the summer I decided to practice basics of pytorch. ";
-};
+    "During the summer I decided to practice basics of pytorch. I went through the PyTorch for Deep Learning & Machine Learning youtube course. So far i've learnt the basic syntaxes and how to work with matrices.";
+    document.getElementById("mod_img").innerHTML = '<img src="images/pytorchimg.png" id="pytorchpic">'
+  };
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function () {
